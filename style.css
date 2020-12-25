@@ -1,0 +1,73 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+a:hover {
+  color: white;
+}
+
+canvas {
+  display: block;
+  touch-action: none;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+}
+
+#snowflakes-sketch {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.content {
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  bottom: 0.5rem;
+  width: 98vw;
+}
+
+.kaleidoscope-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#kaleidoscope-sketch canvas {
+  border: 10px solid rgba(255, 255, 255, 0.25);
+  border-radius: 10px;
+}
+
+#kaleidoscope-sketch div {
+  display: inline-block;
+  font-size: 1rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  border: 0.3rem solid #2968bb;
+  border-radius: 1.5rem;
+  background-color: white;
+  color: #2968bb;
+  line-height: 1.5rem;
+  font-weight: bold;
+  margin-right: 1rem;
+}
+
+.credits {
+  font-size: 0.8rem;
+}

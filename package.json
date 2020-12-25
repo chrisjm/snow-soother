@@ -1,0 +1,42 @@
+{
+  "name": "snow-soother",
+  "version": "1.0.0",
+  "description": "Snow Soother Animation",
+  "main": "snowflake-sketch.js",
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build",
+    "lint": "eslint *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chrisjm/snow-soother.git"
+  },
+  "keywords": [
+    "codingtrain",
+    "javascript",
+    "p5js"
+  ],
+  "prettier": {},
+  "author": "Chris J Mears",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chrisjm/snow-soother/issues"
+  },
+  "homepage": "https://github.com/chrisjm/snow-soother",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-p5js": "^1.0.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0"
+  },
+  "eslintIgnore": [
+    "libraries/*"
+  ],
+  "dependencies": {
+    "snowpack": "^2.18.5"
+  }
+}
