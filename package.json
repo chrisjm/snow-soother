@@ -37,6 +37,6 @@
     "libraries/*"
   ],
   "dependencies": {
-    "snowpack": "^2.18.5"
+    "snowpack": "^3.4.0"
   }
 }
