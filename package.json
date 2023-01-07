@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/chrisjm/snow-soother",
   "devDependencies": {
-    "eslint": "^4.19.1",
+    "eslint": "^8.31.0",
     "eslint-config-p5js": "^1.0.1",
     "eslint-config-standard": "^11.0.0",
     "eslint-plugin-import": "^2.22.1",
